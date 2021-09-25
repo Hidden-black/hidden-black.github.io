@@ -15,13 +15,10 @@ var ctx = c.getContext("2d");
 var hueFw = false;
 var hue = -0.01;
 
-// making the canvas full screen
 c.height = window.innerHeight;
 c.width = window.innerWidth;
 
-
 var konkani  = "゠アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789"
-
 var characters = konkani.split("");
 var font_size = 14;
 var columns = c.width/font_size;    
@@ -32,10 +29,7 @@ var drops = [];
 for (var x = 0; x < columns; x++)
     drops[x] = 1;
 
-
 function draw() {
-
-
 
     ctx.fillStyle = "rgba(0,0,0, 0.05)";
     ctx.fillRect(0, 0, c.width, c.height);
