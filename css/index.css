@@ -4,15 +4,16 @@ body {
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
 }
 
-
 .wrapper {
-    height: 100vh;
+    height: 10vh;
     /*This part is important for centering*/
     display: flex;
     align-items: center;
