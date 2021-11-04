@@ -61,6 +61,12 @@ function draw() {
     }
 }
 
+// Make a function to add numbers
+function add(a, b) {
+    return a + b;
+}
+
+
 
 window.onresize = () => {
     location.reload();
