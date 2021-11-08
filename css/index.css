@@ -291,3 +291,14 @@ hr {
 .social-icons .fa-youtube-square {
     background-color: #C52F30;
 }
+
+
+/* Make a text morph animation. */
+
+.morph-text {
+    -webkit-animation: morphText 5000ms ease-in-out;
+    -moz-animation: morphText 5000ms ease-in-out;
+    -ms-animation: morphText 5000ms ease-in-out;
+    -o-animation: morphText 5000ms ease-in-out;
+    animation: morphText 5000ms ease-in-out;
+}
