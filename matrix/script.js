@@ -5,7 +5,7 @@ var root = {
         b: 253
     },
     rainbowSpeed: 0.01,
-    rainbow: true,
+    rainbow: false,
     matrixspeed: 50
 };
 
@@ -18,7 +18,7 @@ var hue = -0.01;
 c.height = window.innerHeight;
 c.width = window.innerWidth;
 
-var konkani = "゠アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789"
+var konkani = "=アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレワヰヱヲンヺ・ーヽヿ0123456789"
 var characters = konkani.split("");
 var font_size = 14;
 var columns = c.width / font_size;
