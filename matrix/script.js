@@ -1,10 +1,10 @@
 var root = {
     wavecolor: {
-        r: 125,
-        g: 52,
-        b: 253
+        r: 0,
+        g: 198,
+        b: 60
     },
-    rainbowSpeed: 0.01,
+    rainbowSpeed: 0,
     rainbow: false,
     matrixspeed: 50
 };
