@@ -1,8 +1,8 @@
 var root = {
     wavecolor: {
         r: 0,
-        g: 198,
-        b: 60
+        g: 255,
+        b: 93
     },
     rainbowSpeed: 0,
     rainbow: false,
