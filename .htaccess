@@ -1,2 +1,2 @@
 ErrorDocument 404 /404.html
-Redirect /ptable /periodic-table
+Redirect /ptable http://hiddenblack.me/periodic-table
