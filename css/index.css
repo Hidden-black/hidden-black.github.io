@@ -235,11 +235,11 @@ hr {
     background-color: #025DAC;
 }
 
-.social-icons .fa-skype {
+.social-icons .discord {
     background-color: #01AEF2;
 }
 
-.social-icons .fa-discord {
+.social-icons .fa-disco {
     background-color: #01AEF2;
 }
 
@@ -292,13 +292,7 @@ hr {
     background-color: #C52F30;
 }
 
-
-/* Make a text morph animation. */
-
-.morph-text {
-    -webkit-animation: morphText 5000ms ease-in-out;
-    -moz-animation: morphText 5000ms ease-in-out;
-    -ms-animation: morphText 5000ms ease-in-out;
-    -o-animation: morphText 5000ms ease-in-out;
-    animation: morphText 5000ms ease-in-out;
+a[title="Discord"] {
+    background-color: #7289da;
+    color: white;
 }
