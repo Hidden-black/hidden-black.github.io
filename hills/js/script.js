@@ -141,6 +141,7 @@ function UpdateClock() {
 
     dayEl.innerText = dayArr[d.getDay()];
 
+
     setTimeout(UpdateClock, 1000);
 }
 UpdateClock();
