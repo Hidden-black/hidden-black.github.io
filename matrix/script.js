@@ -50,6 +50,7 @@ function draw() {
             var rg = Math.floor(127 * Math.sin(root.rainbowSpeed * hue + 2) + 128);
             var rb = Math.floor(127 * Math.sin(root.rainbowSpeed * hue + 4) + 128);
             ctx.fillStyle = 'rgba(' + rr + ',' + rg + ',' + rb + ')';
+            ctx.fillRect =
         } else {
             ctx.fillStyle = 'rgba(' + root.wavecolor.r + ',' + root.wavecolor.g + ',' + root.wavecolor.b + ')';
         }
