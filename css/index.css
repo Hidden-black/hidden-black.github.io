@@ -218,3 +218,12 @@ section:nth-of-type(odd) {
 section:nth-of-type(even) {
     background-color: rgba(255, 255, 255, 0.9);
 }
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30D5C8;
+    border-radius: 4px;
+}
