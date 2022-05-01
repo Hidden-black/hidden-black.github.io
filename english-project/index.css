@@ -2,3 +2,16 @@ body {
     background-color: #000;
     color: #fff;
 }
+
+.force-overflow {
+    min-height: 450px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30D5C8;
+    border-radius: 6px;
+}
