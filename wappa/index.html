@@ -3,46 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Embedded Link</title>
+  <title>MAPPA Countdown</title>
   <style>
-    /* Discord-like dark mode theme */
     body {
       margin: 0;
       height: 100vh;
       background-color: #2c2f33;
-      color: #ffffff;
       display: flex;
       justify-content: center;
       align-items: center;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .embed-container {
+    .countdown-wrapper {
       background-color: #23272a;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+      text-align: center;
+      transform: scale(4); 
+      transform-origin: center;
     }
 
-    iframe {
-      border: none;
-      width: 560px;
-      height: 315px;
-      border-radius: 8px;
+    .countdown-wrapper:hover {
+      box-shadow: 0 0 35px rgba(114, 137, 218, 0.5);
     }
 
-    @media (max-width: 600px) {
-      iframe {
-        width: 100%;
-        height: auto;
-      }
+    .countdown-timer {
+      display: inline-block;
     }
   </style>
+  <script src="https://cdn.logwork.com/widget/countdown.js"></script>
 </head>
 <body>
-  <div class="embed-container">
-<script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-timer" class="countdown-timer" data-style="flip2" data-timezone="Asia/Kolkata" data-date="2025-07-04 04:30">MAPPA GREATNESS</a>
+  <div class="countdown-wrapper">
+    <a 
+      href="https://logwork.com/countdown-d5ne" 
+      class="countdown-timer" 
+      data-style="flip2" 
+      data-timezone="Asia/Kolkata" 
+      data-textcolor="#ffffff" 
+      data-date="2025-07-04 04:30" 
+      data-background="#2c2f33" 
+      data-digitscolor="#ffffff" 
+      data-unitscolor="#ffffff">
+      MAPPA CINEMA
+    </a>
   </div>
 </body>
 </html>
